@@ -1,0 +1,1 @@
+<iframe src="components/phpinfo.php" style="width:100%; height:800px; border:none;"></iframe>

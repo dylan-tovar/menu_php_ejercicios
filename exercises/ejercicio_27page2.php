@@ -1,0 +1,12 @@
+<html> 
+ 
+<head> 
+  <title>newpage2</title> 
+</head> 
+ 
+<body> 
+Esta es la pagina protegida con ABRACADABRA 
+newpage2 
+</body> 
+ 
+</html>

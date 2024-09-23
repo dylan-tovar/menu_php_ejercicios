@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  background-color: #1a1a1a; /* Fondo oscuro general */
+  color: #c9d1d9; /* Texto claro */
+  font-family: "Inter", sans-serif; /* Fuente Poppins aplicada */
+  font-weight: 600;
+}
+
+.menu-item {
+  background-color: #1a1a1a; /* Color por defecto (fondo) */
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:nth-child(odd) {
+  background-color: #2a2a2a; /* Fondo gris para los elementos impares */
+}
+
+.menu-item:hover {
+  background-color: #3a3a3a; /* Fondo más claro al hacer hover */
+}
+
+.btn-custom {
+  background-color: #276897; /* Color púrpura para el botón */
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #2883c1; /* Hover para el botón */
+}
+
+.item-title {
+  font-size: 16px; /* Tamaño del texto */
+}

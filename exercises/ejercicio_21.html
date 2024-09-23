@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        color: white;
+        margin: 0;
+      }
+
+      .navbar {
+        background-color: #22252a;
+        display: flex;
+        padding: 15px;
+        align-items: center;
+      }
+
+      .btn {
+        background-color: white;
+        color: black;
+        padding: 10px 40px;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 6px;
+      }
+
+      .btn:hover {
+        background-color: #b9bfc4;
+      }
+
+      .form {
+        margin: 20;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <button class="btn" onclick="goBack()">Volver</button>
+      </nav>
+    </header>
+    <div class="form">
+      <form action="ejercicio_21.php" method="post">
+        Cuantas veces?
+        <input type="text" name="number" />
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
